@@ -1,0 +1,175 @@
+{
+  :bundle {
+    :html5 {
+      :architectures #{
+        "wasm-web"
+      }
+      :build_report false
+      :contentless false
+      :liveupdate false
+      :texture_compression "enabled"
+      :variant "release"
+      :with_symbols true
+    }
+    :last-bundle-command :project.bundle-windows
+    :output-directory "C:\\Users\\DELL\\Desktop\\Lua-Language-Projects\\Defold-Tilegame-Demo\\.Release"
+    :windows {
+      :build_report false
+      :contentless false
+      :liveupdate false
+      :platform "x86_64-win32"
+      :texture_compression "enabled"
+      :variant "release"
+      :with_symbols true
+    }
+  }
+  :code {
+    :find {
+      :term "plant"
+    }
+  }
+  :scene {
+    :grid {
+      :opacity 0.27
+      :size {
+        :x 0.02
+        :y 0.02
+      }
+    }
+  }
+  :workflow {
+    :recent-files [
+      [
+        "/builtins/render/default.display_profiles"
+        :text
+      ]
+      [
+        "/builtins/render/default.display_profiles"
+        :cljfx-form-view
+      ]
+      [
+        "/README.md"
+        :html
+      ]
+      [
+        "/main/environment/farming.tilesource"
+        :scene
+      ]
+      [
+        "/main/environment/farming.tilemap"
+        :scene
+      ]
+      [
+        "/rendy/rendy.script"
+        :code
+      ]
+      [
+        "/main/environment/farming_tilemap.tilemap"
+        :scene
+      ]
+      [
+        "/main/environment/farming_tilesource.tilesource"
+        :scene
+      ]
+      [
+        "/main/data.lua"
+        :code
+      ]
+      [
+        "/builtins/fonts/font.material"
+        :cljfx-form-view
+      ]
+      [
+        "/Game/environment/plants_data.lua"
+        :code
+      ]
+      [
+        "/Game/player.script"
+        :code
+      ]
+      [
+        "/Game/simple ui/simple_ui_tilesource.tilesource"
+        :scene
+      ]
+      [
+        "/Game/environment/fields_tilemap.tilemap"
+        :scene
+      ]
+      [
+        "/Game/environment/farming_tilesource.tilesource"
+        :scene
+      ]
+      [
+        "/Fonts/kenney_mini.font"
+        :scene
+      ]
+      [
+        "/defos/src/defos.cpp"
+        :code
+      ]
+      [
+        "/main/main.script"
+        :code
+      ]
+      [
+        "/main/farm-tile.tilesource"
+        :scene
+      ]
+      [
+        "/main/cursor.tilesource"
+        :scene
+      ]
+      [
+        "/main/pixel.font"
+        :scene
+      ]
+      [
+        "/main/utils.lua"
+        :code
+      ]
+      [
+        "/.gitattributes"
+        :code
+      ]
+      [
+        "/main/farm_map.tilemap"
+        :scene
+      ]
+      [
+        "/main/plant_data.lua"
+        :code
+      ]
+      [
+        "/input/game.input_binding"
+        :cljfx-form-view
+      ]
+      [
+        "/log.txt"
+        :code
+      ]
+      [
+        "/main/Player/player.script"
+        :code
+      ]
+      [
+        "/main/main.collection"
+        :scene
+      ]
+      [
+        "/liveupdate.settings"
+        :cljfx-form-view
+      ]
+      [
+        "/game.project"
+        :cljfx-form-view
+      ]
+      [
+        "/.Release/x86_64-win32/build_input_data.json"
+        :code
+      ]
+    ]
+    :saved-colors [
+      "#472504ff"
+    ]
+  }
+}
