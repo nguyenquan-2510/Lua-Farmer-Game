@@ -1,0 +1,5 @@
+font: "/fonts/Kenney Pixel.ttf"
+material: "/builtins/fonts/font-df.material"
+size: 50
+outline_width: 4.0
+characters: " !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"

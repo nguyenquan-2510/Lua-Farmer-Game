@@ -1,0 +1,4 @@
+function init(self)
+	defos.disable_window_resize()
+	msg.post("@render:", "use_fit_projection", { near = -1, far = 1})
+end

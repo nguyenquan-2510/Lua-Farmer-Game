@@ -1,0 +1,83 @@
+name: "main"
+scale_along_z: 0
+embedded_instances {
+  id: "manager"
+  data: "components {\n"
+  "  id: \"main\"\n"
+  "  component: \"/main/main.script\"\n"
+  "}\n"
+  ""
+}
+embedded_instances {
+  id: "farm_map"
+  data: "components {\n"
+  "  id: \"farm_map\"\n"
+  "  component: \"/main/farm_map.tilemap\"\n"
+  "}\n"
+  ""
+  scale3 {
+    x: 2.0
+    y: 2.0
+  }
+}
+embedded_instances {
+  id: "player"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/main/Player/player.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"cell_cursor\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"cursor\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ADD\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/main/cursor.tilesource\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"label_id\"\n"
+  "  type: \"label\"\n"
+  "  data: \"size {\\n"
+  "  x: 128.0\\n"
+  "  y: 32.0\\n"
+  "}\\n"
+  "text: \\\"Label\\\"\\n"
+  "font: \\\"/main/pixel.font\\\"\\n"
+  "material: \\\"/builtins/fonts/label-df.material\\\"\\n"
+  "\"\n"
+  "  position {\n"
+  "    y: 32.0\n"
+  "  }\n"
+  "}\n"
+  ""
+}
+embedded_instances {
+  id: "label"
+  data: "embedded_components {\n"
+  "  id: \"label_coordinate\"\n"
+  "  type: \"label\"\n"
+  "  data: \"size {\\n"
+  "  x: 128.0\\n"
+  "  y: 32.0\\n"
+  "}\\n"
+  "outline {\\n"
+  "  x: 0.8\\n"
+  "  y: 0.8\\n"
+  "  z: 0.2\\n"
+  "}\\n"
+  "text: \\\"X: 0 Y: 0\\\"\\n"
+  "font: \\\"/main/pixel.font\\\"\\n"
+  "material: \\\"/builtins/fonts/label-df.material\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: 85.0
+    y: 639.0
+    z: 1.0
+  }
+}
